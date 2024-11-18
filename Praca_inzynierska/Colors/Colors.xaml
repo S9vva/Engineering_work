@@ -1,0 +1,38 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Background Colors-->
+    <SolidColorBrush x:Key="PrimaryBackgroundColor" Color="#FFFF"/>
+
+    <SolidColorBrush x:Key="PrimaryBlueBgColor" Color="#304ffe"/>
+    <SolidColorBrush x:Key="PrimaryTextBgColor" Color="#ffffff"/>
+
+    <SolidColorBrush x:Key="ButtonMouseOverColor" Color="#0026CA"/>
+
+    <SolidColorBrush x:Key="ButtonPressedColor" Color="#7a7cFF"/>
+
+    <SolidColorBrush x:Key="ButtonBorderBrushColor" Color="#0026CA"/>
+
+    <SolidColorBrush x:Key="PrimaryDarkTextBgColor" Color="#0025ca"/>
+
+
+    <!--#region Text Style-->
+    <!-- Primary Colors -->
+    <SolidColorBrush x:Key="PrimaryBlueColor" Color="#004BFF"/>
+    <SolidColorBrush x:Key="PrimaryGrayColor" Color="#64677A"/>
+
+    <!-- Secundary Colors-->
+    <SolidColorBrush x:Key="SecundaryBlueColor" Color="#496FFF"/>
+    <SolidColorBrush x:Key="SecundaryGrayColor" Color="#9295A5"/>
+
+    <!-- Tertiary Colors-->
+    <SolidColorBrush x:Key="TertiaryBlueColor" Color="#496FFF"/>
+    <SolidColorBrush x:Key="TertiaryGrayColor" Color="#CECECE"/>
+
+    <!-- Text Colors-->
+    <SolidColorBrush x:Key="PrimaryTextColor" Color="#010101"/>
+
+
+    <!--#endregion-->
+
+</ResourceDictionary>
