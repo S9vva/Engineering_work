@@ -2,7 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks">
 
-<!--#region Style for feature-->
+<!--#region Style feature-->
     <Style x:Key="TextBoxStyle" TargetType="{x:Type TextBox}">
         <Setter Property="Background" Value="{DynamicResource PrimaryBackgroundColor}"/>
         <Setter Property="BorderThickness" Value="2"/>
@@ -239,6 +239,8 @@
         </Setter>
     </Style>
 
+
+
     <!-- Start Button Style-->
     <Style x:Key="PrimaryButtonStyle" TargetType="{x:Type Button}">
         <Setter Property="Background" Value="{DynamicResource PrimaryBlueBgColor}"/>
@@ -332,7 +334,7 @@
     <!--#endregion-->
 
 
-    <!--#region Main Doctor Style-->
+<!--#region Main Doctor Style-->
     <Style x:Key="topButton" TargetType="Button">
         <Setter Property="Background" Value="Transparent" />
         <Setter Property="Foreground" Value="#6E7783" />

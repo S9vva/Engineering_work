@@ -6,13 +6,13 @@
         xmlns:local="clr-namespace:Praca_inzynierska"
         xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
         mc:Ignorable="d"
-        Title="Login" Height="450" Width="800">
+        Title="Login" Height="450" Width="820" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="400"></ColumnDefinition>
                 <ColumnDefinition Width="400"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Image Grid.Column="1" Source="Foto/9437012.jpg" Stretch="UniformToFill" Margin="0,55,0,0"></Image>
+        <Image Grid.Column="1" Source="C:/Users/andri/source/repos/Praca_inzynierska/Praca_inzynierska/Foto/9437012.jpg" Stretch="UniformToFill" Margin="0,55,0,0"></Image>
             <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical" Grid.Column="0">
                 <TextBlock Text="Login Page" FontSize="36"></TextBlock>
                 <StackPanel Orientation="Horizontal">
